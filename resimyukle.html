@@ -1,0 +1,15 @@
+﻿<form action="imageuploadtest.php" method="POST" enctype="multipart/form-data">
+<title>
+ANALOG
+</title>
+<head>
+<head/>
+<body bgcolor="grey">
+<center><p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script></br>
+<input type="file" name="image" onchange="$('#resim')[0].src = window.URL.createObjectURL(this.files[0])"/> </br>
+<br><img id="resim" type="button"  width="390" height="450" /></br>
+<br><input type="submit" name="submit" value="Yükle" />
+<br>
+ <center/>
+</form>
